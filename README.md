@@ -1,19 +1,12 @@
-# Weather as Landscape
+# weather_landscape
+
+## What This Is
+
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and weather_landscape is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
 ## Images
 
-[![weather_landscape](https://opengraph.githubassets.com/1/lds133/weather_landscape)](https://www.swifttechco.com)
-
-Visualizing Weather Forecasts Through Landscape Imagery
-
-[![house](pic/house.png)](https://www.swifttechco.com)
-
-Traditional weather stations often display sensor readings as raw numerical data. Navigating these dashboards can be overwhelming and stressful, as it requires significant effort to locate, interpret, and visualize specific parameters effectively.
-
-Viewing a landscape image feels natural to the human eye. The calming effect of observing landscape elements reduces stress and requires minimal effort, allowing for a more relaxed visual experience.
-
-The method below demonstrates how to encode weather information within a landscape image, with no or minimal reliance on numerical data.
-
+[![weather_landscape](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Encoding principles
 
@@ -45,7 +38,7 @@ The following information can be encoded within the landscape image:
 
 ## Implementation
 
-The image generation code is written in [Python](https://www.swifttechco.com) using the [Pillow](https://www.swifttechco.com) library and is based on data from [OpenWeather](https://www.swifttechco.com). The image is designed specifically for use on a 296x128 E-Ink display. The code tested on Python 3.9.
+The image generation code is written in Python using the Pillow library and is based on data from OpenWeather. The image is designed specifically for use on a 296x128 E-Ink display. The code tested on Python 3.9.
 
 
 | Event image | Description |
@@ -131,7 +124,7 @@ Access the server page from a browser to see the number of generated images.
 <!-- [![2.9inch e-Paper Module](pic/eink.jpg)](https://www.swifttechco.com) -->
 [![Setup](pic/hardware.jpg)](https://www.swifttechco.com)
 
-The hardware setup includes an [ESP32 development board](https://www.swifttechco.com) and [2.9inch E-Ink display module](https://www.swifttechco.com). Currently, the setup only displays an image sourced from the internet, updating every 15 minutes. It is uncertain whether the image generation code can be adapted for use with MicroPython on the ESP32 at this time.
+The hardware setup includes an ESP32 development board and 2.9inch E-Ink display module. Currently, the setup only displays an image sourced from the internet, updating every 15 minutes. It is uncertain whether the image generation code can be adapted for use with MicroPython on the ESP32 at this time.
 
 [More information](esp32/README.md)
 
@@ -140,7 +133,7 @@ The hardware setup includes an [ESP32 development board](https://www.swifttechco
 
 [![Setup](pic/landscape_rgb_w.png)](https://www.swifttechco.com)
 
-During the test, several images are generated. The black-and-white images are intended for use with an E-Ink module, while the color images can be placed on a phone's home screen. For Android devices, there is an app called [Web Image Widget](https://www.swifttechco.com) that allows you to create a widget displaying an image from the internet. To use it, start the server script from the repository and add a widget that points to one of the generated images.
+During the test, several images are generated. The black-and-white images are intended for use with an E-Ink module, while the color images can be placed on a phone's home screen. For Android devices, there is an app called Web Image Widget that allows you to create a widget displaying an image from the internet. To use it, start the server script from the repository and add a widget that points to one of the generated images.
 
 [![Android](pic/color_phone_screenshot.jpg)](https://www.swifttechco.com)
 
@@ -154,14 +147,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [lds133/weather_landscape](https://github.com/lds133/weather_landscape) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
